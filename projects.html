@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <title>Projects</title>
+</head>
+<body>
+    <nav class="navbar navbar-expand-sm bg-dark navbar-dark">
+        <ul class="navbar-nav">
+            <li class="nav-item">
+                <a class="nav-link" href="mypage_bootstrap.html">Home</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link active" href="projects.html">Projects</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="form.html">Form</a>
+            </li>
+        </ul>
+        <ul class="navbar-nav ml-auto">
+            <li class="nav-item">
+                <a class="navbar-brand" href="https://github.com/MatthewHardy-Boulder" target="_blank">
+                    <img src="img/github.png" alt="Github Link" width="25px">
+                </a>
+            </li>
+        </ul>
+    </nav>
+    
+    <div class="carousel slide" id="projectCarousel" data-ride="carousel">
+        <ol class="carousel-indicators">
+            <li data-target="#projectCarousel" data-slide-to="0" class="active"></li>
+            <li data-target="#projectCarousel" data-slide-to="1"></li>
+            <li data-target="#projectCarousel" data-slide-to="2"></li>
+        </ol>
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img class="d-block w-100" src="img/visualizer.png" alt="Visualizer" height="800px">
+                <div class="carousel-caption">
+                    <div class="card card-body text-light bg-dark">
+                        <h5 class="card-title">Visualize the World</h5>
+                        <p class="card-text">Visualize the World is a real-time audio visualizer that takes an audio stream input and creates a visual to go with the sound. It is coded in C++ using the OpenFrameworks library.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <img class="d-block w-100" src="img/JG.jpg" alt="Jimmy's Goblet" height="800px">
+                <div class="carousel-caption">
+                    <div class="card card-body text-light bg-dark">
+                        <h5 class="card-title">Jimmy's Goblet</h5>
+                        <p class="card-text">Jimmy's Goblet is an iOS App created using Swift. It is a group party game intended to bring strangers and friends closer together.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <img class="d-block w-100" src="img/SlapShotChallenge.jpg" alt="Slap Shot Challenge" height="800px">
+                <div class="carousel-caption">
+                    <div class="card card-body text-light bg-dark">
+                        <h5 class="card-title">Slap Shot Challenge</h5>
+                        <p class="card-text">Slap Shot Challenge is an iOS App created using Objective-C. It is a game where the player is a hockey puck and must navigate the ice rink in an attempt to make it to the net and score points.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <a class="carousel-control-prev" href="#projectCarousel" role="button" data-slide="prev">
+            <span class="carousel-control-prev-icon"></span>
+        </a>
+        <a class="carousel-control-next" href="#projectCarousel" role="button" data-slide="next">
+            <span class="carousel-control-next-icon"></span>
+        </a>
+    </div>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>
