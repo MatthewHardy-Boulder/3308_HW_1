@@ -18,6 +18,12 @@
             <li class="nav-item">
                 <a class="nav-link" href="form.html">Form</a>
             </li>
+            <li class="nav-item">
+                <a class="nav-link" href="/3308_HW_2/signup-modal/login.html">Sign Up Modal</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="/3308_HW_2/tic-tac-toe/tic-tac-toe.html">Tic Tac Toe</a>
+            </li>
         </ul>
         <ul class="navbar-nav ml-auto">
             <li class="nav-item">
@@ -26,7 +32,7 @@
                 </a>
             </li>
         </ul>
-    </nav>
+	</nav>
 
     <div class="container my-3">
         <h1>Hardy, Matthew <small class="text-muted">- Software Development Methods and Tools</small></h1>
@@ -43,26 +49,35 @@
             <h3 class="mr-auto">My Interests</h3>
             <a type="button" class="btn btn-outline-dark ml-auto" href="form.html">Add interest</a>
         </div>
-        <div class="card-deck">
-            <div class="card bg-dark text-light">
-                <img class="card-img-top" src="img/music.jpeg" alt="Music" height="230px">
-                <div class="card-body">
-                    <h5 class="card-title">Music</h4>
-                    <p class="card-text">I enjoy music because, by finding the right genre, it can always improve the mood of any setting. It brings peace to chaos, joy to sadness, and energy to tiredness.</p>
+        <div class="row">
+            <div class="col-4">
+                <div class="card bg-dark text-light" id="interest1">
+                    <img class="card-img-top" src="img/music.jpeg" alt="Music" height="230px">
+                    <button class="btn btn-secondary btn-sm mr-auto rounded-circle" onclick="addCard(this)">+</button>
+                    <div class="card-body">
+                        <h5 class="card-title">Music</h4>
+                        <p class="card-text">I enjoy music because, by finding the right genre, it can always improve the mood of any setting. It brings peace to chaos, joy to sadness, and energy to tiredness.</p>
+                    </div>
                 </div>
             </div>
-            <div class="card bg-dark text-light">
-                <img class="card-img-top" src="img/hockey.jpg" alt="Hockey" height="230px">
-                <div class="card-body">
-                    <h5 class="card-title">Hockey</h4>
-                    <p class="card-text">I enjoy hockey because it provides an opportunity to relax and momentarily forget about the stresses of life. My earliest memories are of watching hockey with my family, and it has provided me with a great opportunity to bond with the people in my life.</p>
+            <div class="col-4">
+                <div class="card bg-dark text-light" id="interest2">
+                    <img class="card-img-top" src="img/hockey.jpg" alt="Hockey" height="230px">
+                    <button class="btn btn-secondary btn-sm mr-auto rounded-circle" onclick="addCard(this)">+</button>
+                    <div class="card-body">
+                        <h5 class="card-title">Hockey</h4>
+                        <p class="card-text">I enjoy hockey because it provides an opportunity to relax and momentarily forget about the stresses of life. My earliest memories are of watching hockey with my family, and it has provided me with a great opportunity to bond with the people in my life.</p>
+                    </div>
                 </div>
             </div>
-            <div class="card bg-dark text-light">
-                <img class="card-img-top" src="img/nature.jpg" alt="Nature" height="230px">
-                <div class="card-body">
-                    <h5 class="card-title">Nature</h4>
-                    <p class="card-text">The beauty of nature provides a serene escape. Considering that my major, and the current online system, have me on a computer for most hours of my day, going outside and escaping into the wilderness provides a break from the artificial world.</p>
+            <div class="col-4">
+                <div class="card bg-dark text-light" id="interest3">
+                    <img class="card-img-top" src="img/nature.jpg" alt="Nature" height="230px">
+                    <button class="btn btn-secondary btn-sm mr-auto rounded-circle" onclick="addCard(this)">+</button>
+                    <div class="card-body">
+                        <h5 class="card-title">Nature</h4>
+                        <p class="card-text">The beauty of nature provides a serene escape. Considering that my major, and the current online system, have me on a computer for most hours of my day, going outside and escaping into the wilderness provides a break from the artificial world.</p>
+                    </div>
                 </div>
             </div>
         </div>
@@ -79,5 +94,6 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <script src="mypage.js"></script>
 </body>
 </html>
